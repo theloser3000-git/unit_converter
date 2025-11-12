@@ -17,7 +17,7 @@ cnVrt.addEventListener("click", function() {
         alerT.textContent = ""
         render(num)
     } else {
-        alerT.textContent = "Note: oh, man! come onn ... it accepts only numbers to be specific !! "
+        alerT.textContent = "Note: oh, man! come onn ... just numbers, please !! "
     }
 })
 
@@ -47,4 +47,5 @@ function render(num) {
     lengthEl.textContent = `${num} meters = ${lengths[0]} feet | ${num} feet = ${lengths[1]} meters`
     volumeEl.textContent = `${num} litres = ${volumes[0]} gallons | ${num} gallons = ${volumes[1]} litres`
     massEl.textContent = `${num} kilos = ${masses[0]} pounds | ${num} pounds = ${masses[1]} kilos`
+
 }
